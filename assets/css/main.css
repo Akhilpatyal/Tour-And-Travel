@@ -3239,7 +3239,7 @@ textarea {
 }
 @media (max-width: 575px) {
   .tg-hero-content {
-    padding-top: 180px;
+    padding-top: 160px;
     padding-bottom: 100px;
   }
 }
@@ -7063,6 +7063,7 @@ textarea {
 .tg-cta-content {
   margin-left: 75px;
   margin-bottom: 60px;
+  padding-top: 50px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
   .tg-cta-content {
@@ -9812,4 +9813,25 @@ textarea {
   color: var(--tg-common-black);
 }
 
-/*# sourceMappingURL=main.css.map */
+/*# */
+/* font family */
+.poppins-f {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.p-rev-f {
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.p-j-sans-f{
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+ font-weight: 400;
+  font-style: normal;
+}.c-b-y-g-f {
+  font-family: "Covered By Your Grace", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
