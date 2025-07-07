@@ -7343,8 +7343,8 @@ background: linear-gradient(173deg, rgb(0 0 0 / 12%) 0%, rgba(0, 0, 0, 0.5) 100%
   background: var(--tg-theme-primary);
 }
 .tg-footer-space {
-  margin-top: -120px;
-  padding-top: 240px;
+  margin-top: -100px;
+  padding-top: 200px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .tg-footer-space {
@@ -7360,7 +7360,7 @@ background: linear-gradient(173deg, rgb(0 0 0 / 12%) 0%, rgba(0, 0, 0, 0.5) 100%
 }
 .tg-footer-copyright {
   border-top: 1px solid #212635;
-  padding: 43px 10px;
+  padding: 30px 10px;
 }
 .tg-footer-copyright span {
   font-weight: 500;
@@ -9792,9 +9792,10 @@ background: linear-gradient(173deg, rgb(0 0 0 / 12%) 0%, rgba(0, 0, 0, 0.5) 100%
     	30. login
 ===============================*/
 .tg-login-wrapper {
-  padding: 100px 85px 100px;
-  background: var(--tp-common-white);
-  box-shadow: 0px 30px 60px rgba(3, 4, 28, 0.1);
+     padding: 30px 55px 30px;
+    background: var(--tp-common-white);
+    box-shadow: 0px 30px 60px rgba(3, 4, 28, 0.2);
+    border-radius: 24px;
 }
 @media (max-width: 575px) {
   .tg-login-wrapper {
@@ -9805,6 +9806,7 @@ background: linear-gradient(173deg, rgb(0 0 0 / 12%) 0%, rgba(0, 0, 0, 0.5) 100%
   font-size: 34px;
   letter-spacing: -0.04em;
   margin-bottom: 6px;
+
 }
 .tg-login-navigate a {
   text-decoration: underline;
@@ -9834,4 +9836,7 @@ background: linear-gradient(173deg, rgb(0 0 0 / 12%) 0%, rgba(0, 0, 0, 0.5) 100%
  font-family: "Cinzel", serif;
   font-weight: 600;
   font-style: normal;
+}
+.modal-content {
+    border-radius: 22px!important;
 }

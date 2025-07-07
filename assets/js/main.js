@@ -571,4 +571,28 @@ var slider = new Swiper('.tg-location-su-slider', {
 		},
 	},
 });
+
+
+
+// modal form --
+
+  document.addEventListener("DOMContentLoaded", function() {
+    const showRegisterLink = document.getElementById("showRegister");
+    const showLoginLink = document.getElementById("showLogin");
+    const loginForm = document.getElementById("loginForm");
+    const registerForm = document.getElementById("registerForm");
+
+    showRegisterLink.addEventListener("click", function(e) {
+      e.preventDefault();
+      loginForm.style.display = "none";
+      registerForm.style.display = "block";
+    });
+
+    showLoginLink.addEventListener("click", function(e) {
+      e.preventDefault();
+      loginForm.style.display = "block";
+      registerForm.style.display = "none";
+    });
+  });
+
 })(jQuery);
